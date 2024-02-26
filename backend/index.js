@@ -11,11 +11,11 @@ app.use(express.json());
 
 app.use(cors());
 
-app.use(cors({
-    origin: "http://localhost:3000",
-    methods: ["PUT", "DELETE", "GET", "POST"],
-    allowedHeaders: ["content-Type"]
-}))
+// app.use(cors({
+//     origin: "http://localhost:3000",
+//     methods: ["PUT", "DELETE", "GET", "POST"],
+//     allowedHeaders: ["content-Type"]
+// }))
 
 app.get('/', (req, res) => {
     res.send('hello');

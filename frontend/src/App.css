@@ -1,0 +1,18 @@
+.home{
+    border: 1px solid black;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.home table{
+    border: 1px solid black;
+}
+.home thead{
+    border: 2px solid black;
+}
+.home td{
+    border: 2px solid black;
+    padding: 20px;
+}
