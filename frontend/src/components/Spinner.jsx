@@ -1,9 +1,9 @@
 import React from 'react'
-
+import '../App.css';
 const Spinner = () => {
   return (
-    <div className='animate-ping'> 
-         spinner
+    <div className='loading-spinner'> 
+         <div></div>
     </div>
   )
 }
